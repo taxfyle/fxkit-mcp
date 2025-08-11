@@ -1,0 +1,43 @@
+# Source files
+src/
+*.ts
+tsconfig.json
+
+# Development files
+.git/
+.gitignore
+CLAUDE.md
+*.log
+node_modules/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Test files
+test/
+*.test.*
+*.spec.*
+
+# Build artifacts (except dist/)
+*.tsbuildinfo
+
+# Development dependencies
+tsx/
+typescript/
+
+# Documentation files (keep README.md)
+docs/
+*.md
+!README.md
+
+# Config files
+.eslintrc*
+.prettierrc*
+.editorconfig
+
+# OS files
+.DS_Store
+Thumbs.db
