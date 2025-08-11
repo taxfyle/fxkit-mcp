@@ -1,0 +1,29 @@
+{
+  "name": "fxkit-mcp",
+  "version": "1.0.0",
+  "description": "Model Context Protocol server for FxKit C# functional programming library documentation",
+  "main": "dist/index.js",
+  "bin": {
+    "fxkit-mcp": "./bin.js"
+  },
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx src/index.ts",
+    "start": "node dist/index.js"
+  },
+  "keywords": ["mcp", "fxkit", "csharp", "functional-programming", "documentation"],
+  "author": "Anthony Orta",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.17.2",
+    "cheerio": "^1.1.2",
+    "node-fetch": "^3.3.2",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "@types/node": "^24.2.1",
+    "tsx": "^4.20.3",
+    "typescript": "^5.9.2"
+  }
+}
