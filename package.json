@@ -1,5 +1,5 @@
 {
-  "name": "fxkit-mcp",
+  "name": "@taxfyle/fxkit-mcp",
   "version": "1.0.0",
   "description": "Model Context Protocol server for FxKit C# functional programming library documentation",
   "main": "dist/index.js",

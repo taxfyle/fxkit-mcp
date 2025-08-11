@@ -65,7 +65,7 @@ npm run build
 ### Global Installation
 
 ```bash
-npm install -g fxkit-mcp
+npm install -g @taxfyle/fxkit-mcp
 ```
 
 ## Usage
@@ -78,7 +78,7 @@ npm install -g fxkit-mcp
       "command": "npx",
       "args": [
         "-y",
-        "fxkit-mcp@latest"
+        "@taxfyle/fxkit-mcp@latest"
       ],
       "env": {}
     }
